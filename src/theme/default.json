@@ -1,0 +1,9 @@
+{
+  "backgroundColor": "rgb(43,44,46)",
+  "fontColor": "#999",
+  "fontColorHighlight": "#EEE",
+  "fontColorSelected": "#FFF",
+  "borderColor": "#202020",
+  "borderWidth": "1px",
+  "borderType": "solid"
+}
