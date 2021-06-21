@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import About from '../pages/about/about';
 import Index from '../pages/index/index';
 import AxisExtent from '../pages/axisExtent/axisExtent';
+import FindHover from '../pages/findHover/findHover';
 
 export default new Router({
 	mode: 'history',
@@ -23,6 +24,11 @@ export default new Router({
 			path: '/axisExtent',
 			name: 'AxisExtent',
 			component: AxisExtent
+		},
+		{
+			path: '/findHover',
+			name: 'FindHover',
+			component: FindHover
 		}
 	]
 });
