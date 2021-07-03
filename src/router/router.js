@@ -4,6 +4,7 @@ import About from '../pages/about/about';
 import Index from '../pages/index/index';
 import AxisExtent from '../pages/axisExtent/axisExtent';
 import FindHover from '../pages/findHover/findHover';
+import AutoLabelLayout from "../pages/autoLabelLayout/autoLabelLayout";
 
 export default new Router({
 	mode: 'history',
@@ -29,6 +30,11 @@ export default new Router({
 			path: '/findHover',
 			name: 'FindHover',
 			component: FindHover
+		},
+		{
+			path: '/autoLabelLayout',
+			name: 'AutoLabelLayout',
+			component: AutoLabelLayout
 		}
 	]
 });
