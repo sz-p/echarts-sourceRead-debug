@@ -30,6 +30,8 @@ TODO
 
 #### set多个Options仅渲染一次如何实现
 
+#### 标签文字的AutoAnimation如何实现
+
 ### API实现
 
 #### [focusNodeAdjacency](./src/pages/focusNodeAdjacency/README.md)
