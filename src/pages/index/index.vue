@@ -5,6 +5,8 @@
     <router-link to="/findHover">findHover</router-link>
     <br />
     <router-link to="/autoLabelLayout">autoLabelLayout</router-link>
+    <br />
+    <router-link to="/setOptionMoreThanOnce">SetOptionMoreThanOnce</router-link>
   </div>
 </template>
 

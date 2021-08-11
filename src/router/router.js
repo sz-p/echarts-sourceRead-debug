@@ -5,7 +5,7 @@ import Index from '../pages/index/index';
 import AxisExtent from '../pages/axisExtent/axisExtent';
 import FindHover from '../pages/findHover/findHover';
 import AutoLabelLayout from "../pages/autoLabelLayout/autoLabelLayout";
-
+import SetOptionMoreThanOnce from "../pages/setOptionMoreThanOnce/setOptionMoreThanOnce";
 export default new Router({
 	mode: 'history',
 	base: window.location.pathname,
@@ -35,6 +35,11 @@ export default new Router({
 			path: '/autoLabelLayout',
 			name: 'AutoLabelLayout',
 			component: AutoLabelLayout
+		},
+		{
+			path: '/setOptionMoreThanOnce',
+			name: 'SetOptionMoreThanOnce',
+			component: SetOptionMoreThanOnce
 		}
 	]
 });

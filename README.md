@@ -19,6 +19,10 @@
 
 如何去做`Canvas`内部的事件响应，以及一旦`Canvas`中的元素多起来如何去做性能优化。
 
+#### [setOption](./src/pages/setOptionMoreThanOnce/README.md)
+
+`lazyUpdate`模式如何实现多次执行`setOption`,仅对最终的`option`渲染一次。
+
 #### [canvasLayer](./src/pages/canvasLayer/README.md)
 
 在大规模数据场景下如何做渲染性能优化。
