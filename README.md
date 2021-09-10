@@ -23,16 +23,23 @@
 
 `lazyUpdate`模式如何实现多次执行`setOption`,仅对最终的`option`渲染一次。
 
-#### [canvasLayer](./src/pages/canvasLayer/README.md)
+#### [性能优化](./src/pages/ECharts之性能优化/README.md)
 
 在大规模数据场景下如何做渲染性能优化。
+
+#### [setOptionMoreThanOnce](./src/pages/setOptionMoreThanOnce/README.md)
+
+set多个Options仅渲染一次如何实现
+
+#### [canvasLayer](./src/pages/canvasLayer/README.md)
+
+如何应用多层画布解决性能问题
 TODO
 #### [autoLabelLayout](./src/pages/autoLabelLayout/README.md)
 
 如何解决标签重叠、自适应问题。
 TODO
 
-#### set多个Options仅渲染一次如何实现
 
 #### 标签文字的AutoAnimation如何实现
 
