@@ -34,11 +34,18 @@ set多个Options仅渲染一次如何实现
 #### [canvasLayer](./src/pages/canvasLayer/README.md)
 
 如何应用多层画布解决性能问题
-TODO
+
+
 #### [autoLabelLayout](./src/pages/autoLabelLayout/README.md)
 
 如何解决标签重叠、自适应问题。
 TODO
+
+#### [progressiveRender](./src/pages/progressiveRender/README.md)
+
+如何应用渐进渲染解决性能问题
+TODO
+
 
 
 #### 标签文字的AutoAnimation如何实现

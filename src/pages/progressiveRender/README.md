@@ -1,4 +1,4 @@
-# ECharts源码解析之CanvasLayer
+# ECharts源码解析之渐进渲染
 
 ## 版本：V5.0.2
 
