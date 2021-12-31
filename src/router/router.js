@@ -9,7 +9,7 @@ import SetOptionMoreThanOnce from "../pages/setOptionMoreThanOnce/setOptionMoreT
 import CanvasLayer from "../pages/canvasLayer/canvasLayer";
 export default new Router({
   mode: "history",
-  base: window.location.pathname,
+  base: "/",
   routes: [
     {
       path: "/",
