@@ -45,7 +45,7 @@ export default {
           name: "访问来源",
           type: "pie",
           radius: "50%",
-          data: createData(1000),
+          data: createData(100),
           label: {
             show: true
           },

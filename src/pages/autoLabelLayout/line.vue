@@ -15,7 +15,7 @@ export default {
     const chartDom = this.$refs.chartBox;
     const myChart = echarts.init(chartDom);
 
-    const createXYData = function(dataLength) {
+    const createXYData = function (dataLength) {
       const xData = [];
       const yData = [];
       for (let i = 0; i < dataLength; i++) {
@@ -29,20 +29,23 @@ export default {
     const option = {
       xAxis: {
         type: "category",
-        data: xData
+        data: xData,
       },
       yAxis: {
-        type: "value"
+        type: "value",
       },
       series: [
         {
           data: yData,
-          type: "line"
-        }
-      ]
+          type: "line",
+          label: {
+            show: true
+          },
+        },
+      ],
     };
     option && myChart.setOption(option);
-  }
+  },
 };
 </script>
 <style lang="less" scoped>
