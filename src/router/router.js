@@ -8,6 +8,7 @@ import AutoLabelLayout from "../pages/autoLabelLayout/autoLabelLayout";
 import SetOptionMoreThanOnce from "../pages/setOptionMoreThanOnce/setOptionMoreThanOnce";
 import CanvasLayer from "../pages/canvasLayer/canvasLayer";
 import SvgBackground from "../pages/svgBackground/svgBackground";
+import svgRender from "../pages/svgRender/svgRender"
 export default new Router({
   mode: "history",
   base: "/",
@@ -47,6 +48,11 @@ export default new Router({
       path: "/canvasLayer",
       name: "CanvasLayer",
       component: CanvasLayer
+    },
+    {
+      path: "/svgRender",
+      name: "svgRender",
+      component: svgRender
     },
     {
       path: "/svgBackground",
