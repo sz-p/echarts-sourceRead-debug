@@ -8,6 +8,7 @@ import AutoLabelLayout from "../pages/autoLabelLayout/autoLabelLayout";
 import SetOptionMoreThanOnce from "../pages/setOptionMoreThanOnce/setOptionMoreThanOnce";
 import CanvasLayer from "../pages/canvasLayer/canvasLayer";
 import SvgBackground from "../pages/svgBackground/svgBackground";
+import BezierCurveOptimization from "../pages/bezierCurveOptimization/bezierCurveOptimization";
 import svgRender from "../pages/svgRender/svgRender"
 export default new Router({
   mode: "history",
@@ -58,6 +59,11 @@ export default new Router({
       path: "/svgBackground",
       name: "SvgBackground",
       component: SvgBackground
+    },
+    {
+      path: "/bezierCurveOptimization",
+      name: "BezierCurveOptimization",
+      component: BezierCurveOptimization
     }
   ]
 });
