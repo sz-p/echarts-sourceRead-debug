@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: ECharts源码解析之svgRender
+title: ECharts源码解析之SVG渲染器
 date: 2020-09-21 16:16:41
 updated: 2020-09-21 16:16:41
 tags: 
