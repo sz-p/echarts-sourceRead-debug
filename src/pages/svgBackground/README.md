@@ -514,8 +514,8 @@ export function buildPath(ctx: CanvasRenderingContext2D | PathProxy, shape: {
 位置、文字大小、`Padding`等属性其实可以抽象成一个问题、即`text`的外层包围盒。之后根据`borderRadius`以及外层包围盒重构了外层包围盒的`path`。之后再根据这个`path`在渲染成具体的元素。
 渲染圆角矩形，包括根据`borderRadius`来重新计算`rect`的`path`都有现成的方法，并不复杂。但这里引出了两个相对复杂的问题：
 
-1. [ECharts如何渲染svg元素](./../svgRender)
-2. ECharts如何计算文字的外层包围盒
+1. [ECharts如何渲染svg元素](../svgRender/)
+2. [ECharts如何计算文字的外层包围盒](../textBoundingRect/)
 
 ##  参考 & 引用
 
