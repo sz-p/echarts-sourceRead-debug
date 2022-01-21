@@ -10,6 +10,7 @@ import CanvasLayer from "../pages/canvasLayer/canvasLayer";
 import SvgBackground from "../pages/svgBackground/svgBackground";
 import BezierCurveOptimization from "../pages/bezierCurveOptimization/bezierCurveOptimization";
 import svgRender from "../pages/svgRender/svgRender"
+import TextBoundingRect from "../pages/textBoundingRect/textBoundingRect"
 export default new Router({
   mode: "history",
   base: "/",
@@ -59,6 +60,11 @@ export default new Router({
       path: "/svgBackground",
       name: "SvgBackground",
       component: SvgBackground
+    },
+    {
+      path: "/textBoundingRect",
+      name: "TextBoundingRect",
+      component: TextBoundingRect
     },
     {
       path: "/bezierCurveOptimization",

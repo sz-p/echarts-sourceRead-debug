@@ -11,6 +11,12 @@
     <router-link to="/canvasLayer">CanvasLayer</router-link>
     <br />
     <router-link to="/svgBackground">SvgBackground</router-link>
+    <br />
+    <router-link to="/svgRender">SvgRender</router-link>
+    <br />
+    <router-link to="/textBoundingRect">TextBoundingRect</router-link>
+    <br />
+    <router-link to="/bezierCurveOptimization">BezierCurveOptimization</router-link>
   </div>
 </template>
 
