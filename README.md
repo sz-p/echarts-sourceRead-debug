@@ -39,16 +39,26 @@ set多个Options仅渲染一次如何实现
 #### [autoLabelLayout](./src/pages/autoLabelLayout/README.md)
 
 如何解决标签重叠、自适应问题。
-TODO
 
 #### [progressiveRender](./src/pages/progressiveRender/README.md)
 
 如何应用渐进渲染解决性能问题
-TODO
 
+#### [svgBackground](./src/pages/svgBackground/README.md)
 
+如何在`SVG`渲染器下实现`Text`背景
+
+#### [svgRender](./src/pages/svgRender/README.md)
+
+如何同时支持`SVG`及`canvas`渲染器
+
+#### [textBoundingRect](./src/pages/textBoundingRect/README.md)
+
+如何计算文字的外层包围盒
 
 #### 标签文字的AutoAnimation如何实现
+
+如何实现 标签动画 字体大小可以随着图形元素的大小动态变化
 
 ### API实现
 
