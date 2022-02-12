@@ -11,6 +11,8 @@ import SvgBackground from "../pages/svgBackground/svgBackground";
 import BezierCurveOptimization from "../pages/bezierCurveOptimization/bezierCurveOptimization";
 import svgRender from "../pages/svgRender/svgRender"
 import TextBoundingRect from "../pages/textBoundingRect/textBoundingRect"
+import SvgRenderAddTag from "../pages/svgRender-add-tag/svgRender-add-tag.vue"
+import EventFul from "../pages/eventful/eventful.vue"
 export default new Router({
   mode: "history",
   base: "/",
@@ -70,6 +72,16 @@ export default new Router({
       path: "/bezierCurveOptimization",
       name: "BezierCurveOptimization",
       component: BezierCurveOptimization
+    },
+    {
+      path: "/svgRenderAddTag",
+      name: "svgRenderAddTag",
+      component: SvgRenderAddTag
+    },
+    {
+      path: "/eventFul",
+      name: "eventFul",
+      component: EventFul
     }
   ]
 });

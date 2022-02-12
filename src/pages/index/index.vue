@@ -17,6 +17,10 @@
     <router-link to="/textBoundingRect">TextBoundingRect</router-link>
     <br />
     <router-link to="/bezierCurveOptimization">BezierCurveOptimization</router-link>
+    <br />
+    <router-link to="/svgRenderAddTag">svgRenderAddTag</router-link>
+    <br />
+    <router-link to="/eventFul">eventFul</router-link>
   </div>
 </template>
 
