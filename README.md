@@ -35,7 +35,6 @@ set多个Options仅渲染一次如何实现
 
 如何应用多层画布解决性能问题
 
-
 #### [autoLabelLayout](./src/pages/autoLabelLayout/README.md)
 
 如何解决标签重叠、自适应问题。
@@ -55,6 +54,14 @@ set多个Options仅渲染一次如何实现
 #### [textBoundingRect](./src/pages/textBoundingRect/README.md)
 
 如何计算文字的外层包围盒
+
+#### [eventful](./src/pages/eventful/README.md)
+
+echarts的事件系统是如何工作的
+
+#### [svgRender-add-tag](./src/pages/svgRender-add-tag/README.md)
+
+echarts图元拾取
 
 #### 标签文字的AutoAnimation如何实现
 
