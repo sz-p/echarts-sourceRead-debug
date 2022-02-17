@@ -21,6 +21,8 @@ categories:
 
 本文浅析`ECharts`的事件系统是如何工作的，点击一个`series`之后，`ECharts`是如何执行的回调方法，非`series`元素是否可以设置事件，事件回调又是如何做性能优化的。
 
+![eventful](https://img.sz-p.cn/niceExtent-1.png)
+
 <!-- more -->
 
 ### 源码
