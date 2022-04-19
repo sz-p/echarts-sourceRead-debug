@@ -166,7 +166,9 @@ Path: [/core/platform.ts](https://github1s.com/ecomfe/zrender/blob/HEAD/src/core
 
 ## 小结
 
-`Text`的宽度计算本质上是基于`canvas`的`measureText`API来实现的。高度计算是计算了一个类矩形文字的宽度来实现的(这里采用了'国'字)。`X，Y`的计算则依赖了`Text`本身的位置以及左右和上下对齐的方式来重新计算的。
+`SVG`下`Text`宽高计算本质上还是使用`Canvas`的方式来计算的。
+
+`Text`的宽度计算是基于`canvas`的`measureText`API来实现的。高度计算是计算了一个类矩形文字的宽度来实现的(这里采用了'国'字)。`X，Y`的计算则依赖了`Text`本身的位置以及左右和上下对齐的方式来重新计算的。
 
 ##  参考 & 引用
 
