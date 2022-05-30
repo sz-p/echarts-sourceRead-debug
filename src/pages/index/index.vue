@@ -9,6 +9,8 @@
     <router-link to="/setOptionMoreThanOnce">SetOptionMoreThanOnce</router-link>
     <br />
     <router-link to="/canvasLayer">CanvasLayer</router-link>
+    <br />
+    <router-link to="/svgBackground">SvgBackground</router-link>
   </div>
 </template>
 

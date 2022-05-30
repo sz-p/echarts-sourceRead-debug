@@ -7,6 +7,7 @@ import FindHover from "../pages/findHover/findHover";
 import AutoLabelLayout from "../pages/autoLabelLayout/autoLabelLayout";
 import SetOptionMoreThanOnce from "../pages/setOptionMoreThanOnce/setOptionMoreThanOnce";
 import CanvasLayer from "../pages/canvasLayer/canvasLayer";
+import SvgBackground from "../pages/svgBackground/svgBackground";
 export default new Router({
   mode: "history",
   base: "/",
@@ -46,6 +47,11 @@ export default new Router({
       path: "/canvasLayer",
       name: "CanvasLayer",
       component: CanvasLayer
+    },
+    {
+      path: "/svgBackground",
+      name: "SvgBackground",
+      component: SvgBackground
     }
   ]
 });
